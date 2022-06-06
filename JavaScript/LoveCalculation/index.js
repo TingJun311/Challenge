@@ -10,3 +10,4 @@ function randomPercent () {
 const result = randomPercent();
 
 alert ((result >= 85)? `You have ${result} % love points, perfect match!` : `You have ${result} % love points`);
+
