@@ -7,4 +7,6 @@ function randomPercent () {
     return Math.floor((rand *= 100) + 1);
 }
 
-alert (`${randomPercent()} %`);
+const result = randomPercent();
+
+alert ((result >= 85)? `You have ${result} % love points, perfect match!` : `You have ${result} % love points`);
