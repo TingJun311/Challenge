@@ -8,5 +8,11 @@ $(document).ready(function () {
         $("h1").text(e.key);
         $("h1").attr("class", "heading")
     });
+
+    // before()
+    // after()
+    // prepend()
+    // append()
+    // To add HTML element 
 });
 
